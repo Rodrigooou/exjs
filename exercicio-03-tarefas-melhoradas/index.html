@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1ESPG rm550816</title>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form id="formTarefa">
+        <fieldset>
+            <legend>Dados da Tarefa</legend>
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" required><br>
+
+            <label for="autor">Autor:</label>
+            <input type="text" id="autor" required><br>
+
+            <label for="departamento">Departamento:</label>
+            <input type="text" id="departamento" required><br>
+
+            <label for="importancia">Importância:</label>
+            <select id="importancia">
+                <option value="muito-importante">Muito Importante</option>
+                <option value="relevante">Relevante</option>
+                <option value="pouco-importante">Pouco Importante</option>
+            </select><br>
+        </fieldset>
+
+        <button type="submit">Adicionar Tarefa</button>
+    </form>
+
+    <table id="tabelaTarefas">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Autor</th>
+                <th>Departamento</th>
+                <th>Importância</th>
+                <th>Remover</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aqui serão inseridas as linhas da tabela -->
+        </tbody>
+    </table>
+    
+</body>
+</html>
