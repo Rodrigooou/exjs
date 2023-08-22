@@ -24,7 +24,7 @@ let maiorDoisQuinhentos = salariosAumentados.filter(salario=> salario> 2500);
 console.log(maiorDoisQuinhentos);
 
 //Ex 3:
-//Essa função foram atribuidos parametros que servem para somar os salarios do Ex 2
+//Nessa função foram atribuidos parametros que servem para somar os salarios do Ex 2
 let salarioSoma = maiorDoisQuinhentos.reduce((salario, soma)=> salario + soma);
 
 //Print da soma dos salarios da array do ex 2
