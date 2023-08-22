@@ -13,6 +13,7 @@ const salariosAumentados = salariosArray.map(salario => {
     }
 });
 //Print do Resultado dos salarios com os aumentos determidados (15% até 2000, 10% mais de 2000)
+console.log("Salários com o aumento")
 console.log(salariosAumentados);
 
 
@@ -21,6 +22,7 @@ console.log(salariosAumentados);
 let maiorDoisQuinhentos = salariosAumentados.filter(salario=> salario> 2500);
 
 //Print do Array dos salarios maiores q 2500
+console.log("Salários maiores que 2500")
 console.log(maiorDoisQuinhentos);
 
 //Ex 3:
